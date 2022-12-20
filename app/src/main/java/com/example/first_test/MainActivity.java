@@ -50,8 +50,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
         if (view == submit) {
-            if (first_n.getText() == null || last_n.getText() == null ||
-                    city.getText() == null || pin.getText() == null || date_ob_edt.getText() == null) {
+            if (first_n.getText().toString().equals("")|| last_n.getText().toString().equals("") ||
+                    city.getText().toString().equals("") || pin.getText().toString().equals("") ||
+                    date_ob_edt.getText().toString().equals("")) {
                 Toast.makeText(this, "You should fill the all information", Toast.LENGTH_SHORT).show();
             } else {
                 customDialog = new CustomDialog(MainActivity.this);
