@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Information"
+            android:layout_marginBottom="20dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/f_n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="first name" />
+
+        <TextView
+            android:id="@+id/l_n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="last name" />
+
+        <TextView
+            android:id="@+id/c_n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="city" />
+
+        <TextView
+            android:id="@+id/pin_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="pin_code" />
+
+        <TextView
+            android:id="@+id/dob1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Date of birth" />
+    </LinearLayout>
+
+</LinearLayout>
